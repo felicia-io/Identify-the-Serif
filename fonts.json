@@ -1,0 +1,35 @@
+
+
+{
+  "fonts": [
+    {
+      "id": 1,
+      "name": "Georgia",
+      "type": "Didone",
+      "style": "Serif",
+      "sample_image": "https://fonts.googleapis.com/css2?family=Georgia&display=swap"
+    },
+    {
+      "id": 2,
+      "name": "Times New Roman",
+      "type": "Transitional",
+      "style": "Serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap"
+    },
+    {
+      "id": 3,
+      "name": "Lora",
+      "type": "Old Style",
+      "style": "Serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    },
+    {
+      "id": 4,
+      "name": "Rockwell",
+      "type": "Slab",
+      "style": "Serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    }
+
+  ]
+}

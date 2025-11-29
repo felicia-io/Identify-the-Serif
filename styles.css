@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fieldwork, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+  margin: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+}
+
+.game {
+}
+
+h1 {
+  font-family: bodoni-std, sans-serif;
+  font-size: 50px;
+}
+
+header {
+  color: rgb(171, 173, 175);
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+small {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgb(192, 195, 197);
+}
+
+#game-header {
+  font-family: bodoni-std, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 100px;
+  color: #a8d3d7;
+}
+
+.font_heading {
+  margin-bottom: 5px;
+}
+
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+button {
+  background-color: rgb(237, 242, 244);
+  border: none;
+  width: 130px;
+  height: 39px;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: center;
+  cursor: pointer;
+  color: #50676d;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(225, 233, 236);
+}
